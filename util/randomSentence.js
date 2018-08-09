@@ -174,6 +174,8 @@ class RandomSentence {
 
 
 
-let ran = new RandomSentence()
+// let ran = new RandomSentence()
+//
+// console.log(ran.wordGen())
 
-console.log(ran.wordGen())
+module.exports = RandomSentence

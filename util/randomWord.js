@@ -11,13 +11,13 @@ class RandomWord{
   }
   
   
-  wordGen(){
+  wordGen(len){
     this.rwords = this.shuffleWords(this.rwords);
   
     var a = 0;
     var words = []
     
-    while(a < this.maxWorld){
+    while(a < len){
       words.push(this.rwords[a])
       a++;
     }
