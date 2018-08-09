@@ -1,0 +1,26 @@
+{
+  "name": "hackerboy",
+  "version": "1.0.0",
+  "description": "一本正经的胡说八道",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "hackerboy": "bin/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmdboys/hackerboy.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cmdboys/hackerboy/issues"
+  },
+  "homepage": "https://github.com/cmdboys/hackerboy#readme",
+  "dependencies": {
+    "colors": "^1.3.1",
+    "lodash": "^4.17.10",
+    "single-line-log": "^1.1.2"
+  }
+}
