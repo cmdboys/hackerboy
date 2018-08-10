@@ -50,14 +50,15 @@ class Dir{
     
     this.nowbase = this.baseUrl[lodash.random(0, this.baseUrl.length - 1)]
     
-    this.maxDin = 100
-    this.minDin = 20
-    this.deepDin = 10 // 最多6层目录
+    this.maxDin = 40
+    this.minDin = 10
+    this.deepDin = 6 // 最多6层目录
     
   }
   
 
   genter(){
+    this.outputDir = []
     // 首先生成一个完整目录
     let fullDir = this.myWord.wordGen(this.deepDin)
     
@@ -93,6 +94,7 @@ class Dir{
     lodash.each(this.outputDir, (v, k)=>{
       this.outputDir[k] = this.nowbase  + this.outputDir[k]
     })
+    
   
     return this.outputDir.reverse()
     
